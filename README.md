@@ -6,9 +6,11 @@ One file that learns your writing style from your sent emails and turns it into 
 
 **One skill file · One upload ZIP · MIT licensed · No bundled credentials or runtime dependencies**
 
+**[Download the skill ZIP](https://github.com/DEX-XL/email-voice/releases/download/v0.1.0/email-voice.zip)** · [Read the single file](skills/email-voice/SKILL.md) · [Release notes](https://github.com/DEX-XL/email-voice/releases/tag/v0.1.0)
+
 ## Start in three steps
 
-1. Download **[email-voice.zip](dist/email-voice.zip)**. On GitHub, open the file and click **Download raw file**. This is the skill package; GitHub's **Code > Download ZIP** downloads the whole source repository instead.
+1. Download **[email-voice.zip](https://github.com/DEX-XL/email-voice/releases/download/v0.1.0/email-voice.zip)**. This is the skill package; GitHub's **Code > Download ZIP** downloads the whole source repository instead. A source-tree copy is also available in [dist](dist/email-voice.zip).
 2. Add it using your assistant's supported skill flow. If it only accepts a single file, extract the ZIP and use **[SKILL.md](skills/email-voice/SKILL.md)**. No appendices need to be merged.
 3. Say:
 
@@ -17,6 +19,33 @@ One file that learns your writing style from your sent emails and turns it into 
 The assistant checks the available sources, asks only for missing setup details, samples your own writing, and builds your profile. If no mailbox connection exists, supply a Sent-only export or pasted examples instead.
 
 **Your first useful result:** a writing-pattern summary, a private single-file profile, and an honest validation report. Quick mode uses a smaller sample; Balanced is the recommended starting point. There is no promised completion time or fixed credit cost.
+
+## Try a synthetic example first
+
+After loading the skill, paste this prompt. It needs no mailbox connection and contains no real correspondence:
+
+```text
+Use only these two synthetic sent examples for a tiny provisional profile.
+Sender: Alex. Recipient: a familiar colleague. Language: English.
+
+Example 1:
+Hi Jordan,
+Could you send the updated forecast by Wednesday? I need it for the review.
+Best,
+Alex
+
+Example 2:
+Hi Morgan,
+Tuesday at 10 works for me. Please send the meeting link when it is ready.
+Best,
+Alex
+
+Summarize the observed style, then draft a reply to Jordan confirming that
+Friday at 11 works. That time is confirmed. Do not invent a time zone or
+an attachment. Mark the profile provisional and do not claim validation.
+```
+
+This demonstrates the flow with supplied text. A real profile should use a broader authorized sample across your own contexts.
 
 ## What you can ask
 
@@ -109,7 +138,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a change. Use syntheti
 
 ## Publishing
 
-This repository is ready for your own GitHub account; no live repository URL or stars are claimed. See [the publishing checklist](docs/PUBLISHING.md) for a first release, repository topics, a demo, and a launch description.
+Fork and adapt the skill using [the publishing checklist](docs/PUBLISHING.md). Setup reports, synthetic examples and clear platform findings are especially useful contributions. If Email Voice helps you, a GitHub star helps others discover it.
 
 ## License
 
