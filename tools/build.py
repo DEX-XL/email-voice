@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILL = Path('skills/email-voice/SKILL.md')
 SOURCE_FILES = (
     'README.md', 'LICENSE', '.gitignore', '.gitattributes', 'SECURITY.md', 'CONTRIBUTING.md',
+    'assets/email-voice-preview.svg',
     'CHANGELOG.md', 'skills/email-voice/SKILL.md', 'docs/COMPATIBILITY.md',
     'docs/MODELS.md', 'docs/PUBLISHING.md', 'evals/README.md', 'evals/cases.json',
     'evals/RESULTS.md', 'tools/build.py', 'tests/test_release.py',
