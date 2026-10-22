@@ -18,3 +18,9 @@ These are observations of six produced responses/artifacts from an independent a
 It does not establish live email connector behavior, actual quota handling, persistent storage integration, native installation on any platform, success on real-mail held-out validation, human authorship indistinguishability, or a Sol-versus-other-model benchmark. The public skill has no inherited private-person validation score.
 
 The raw synthetic inputs and outputs were retained in the maintainer's local evaluation workspace; they are not needed by the uploaded skill. Contributors can run the public case fixtures using the procedure in evals/README.md and report their own model/surface/results.
+
+## Live installation check
+
+On 21 October 2026 (America/New_York), Skills CLI **1.7.4** discovered exactly one skill from the published `DEX-XL/email-voice` repository. A project-scoped copy installation targeting **Codex on Windows** completed in an isolated test directory. The installed SKILL.md SHA-256 was `88967d8e68175f82e5eb7fbe21bc7fd22c4f0825f53b63e0379e28e1d8d2bef6`, identical to the release file. No global skills were changed.
+
+This establishes repository discovery and file installation for that CLI route. It does not establish agent activation, native Claude ZIP upload, other operating-system installation routes, persistent profile saving, or email connector behavior. The earlier six behavioral scenarios remain synthetic.
