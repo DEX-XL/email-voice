@@ -1,0 +1,25 @@
+# Personalization and message data never belong in this public repository.
+.email-voice/
+private/
+profiles/
+checkpoints/
+MY_EMAIL_VOICE.md
+my-email-voice/
+*.mbox
+*.eml
+*.pst
+*.ost
+*.msg
+*.sqlite*
+*.db
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+__pycache__/
+.test-*/
+*.py[cod]
+.DS_Store
+Thumbs.db
+# Distribution files are intentionally tracked for a direct download.
