@@ -21,6 +21,20 @@ In a supported local environment, extract the `email-voice` directory into your 
 
 Sources: [Build skills](https://learn.chatgpt.com/docs/build-skills), [Skills and plugins](https://learn.chatgpt.com/docs/skills-and-plugins), [Skill distribution boundaries](https://learn.chatgpt.com/docs/enterprise/skills).
 
+### Optional coding-agent installer
+
+Vercel's Skills CLI discovers `skills/email-voice/SKILL.md` directly from this public repository. With Node.js 22.20+ installed, run from the project where you want the skill:
+
+```bash
+npx skills@1.7.4 add DEX-XL/email-voice --skill email-voice --agent codex --copy
+```
+
+Review and accept the displayed project destination. For Claude Code, use `--agent claude-code`; that destination is documented by the CLI but was not live-tested here. The ZIP remains the route for Claude's native upload interface. These are different installation surfaces.
+
+On 21 October 2026 (America/New_York), the maintainer tested discovery and a noninteractive Codex copy installation with CLI 1.7.4 on Windows in an isolated project. The installed SKILL.md had SHA-256 `88967d8e68175f82e5eb7fbe21bc7fd22c4f0825f53b63e0379e28e1d8d2bef6`, matching v0.1.0. No mail was read during this check. The CLI has its own telemetry and security-audit behavior; its documentation describes `DISABLE_TELEMETRY=1` and `DO_NOT_TRACK=1` controls. Email Voice itself contains no telemetry.
+
+Sources: [Skills CLI installation](https://github.com/vercel-labs/skills/blob/main/docs/commands.md), [repository discovery](https://github.com/vercel-labs/skills/blob/main/docs/creating-skills.md), [CLI telemetry](https://github.com/vercel-labs/skills#telemetry).
+
 ## Gemini
 
 Google documents creating a Gem with a name and instructions, optional knowledge files and a Save step. Extract SKILL.md, paste its Markdown body into the Gem instructions, save, and supply your private profile as context when available. If an instruction length limit prevents this, use the file as knowledge plus a short instruction to follow it; confirm the host can actually read that file before proceeding.
