@@ -18,6 +18,14 @@ One file that learns your writing style from your sent emails and turns it into 
 
 The assistant checks the available sources, asks only for missing setup details, samples your own writing, and builds your profile. If no mailbox connection exists, supply a Sent-only export or pasted examples instead.
 
+**Using a coding agent?** With Node.js 22.20+ installed, Vercel's optional Skills CLI can copy Email Voice into your current project:
+
+```bash
+npx skills@1.7.4 add DEX-XL/email-voice --skill email-voice --agent codex --copy
+```
+
+For Claude Code, replace `codex` with `claude-code`. Review the displayed destination before accepting. This installs the instructions; email access still needs your host's connector or supplied samples. The Codex copy route was tested on Windows with Skills CLI 1.7.4, and the installed file matched the release checksum. This is not a live mailbox test. [CLI documentation and telemetry controls](https://github.com/vercel-labs/skills#telemetry)
+
 **Your first useful result:** a writing-pattern summary, a private single-file profile, and an honest validation report. Quick mode uses a smaller sample; Balanced is the recommended starting point. There is no promised completion time or fixed credit cost.
 
 ## Try a synthetic example first
@@ -61,7 +69,7 @@ This demonstrates the flow with supplied text. A real profile should use a broad
 
 ## One ZIP, honest platform support
 
-The same file contains the full workflow. Installation and persistence are controlled by the host, and email connections must be configured separately. **Documentation compatibility has been checked; live installation and connector workflows have not been tested on every platform.**
+The same file contains the full workflow. Installation and persistence are controlled by the host, and email connections must be configured separately. **The Codex project copy route has been tested on Windows; other platform routes are documentation findings. Live email connector workflows have not been tested.**
 
 | Platform | Route | Evidence/status |
 |---|---|---|
