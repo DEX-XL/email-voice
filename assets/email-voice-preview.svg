@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Email Voice: sent examples, private profile, next reply</title>
+  <desc id="desc">An illustrative workflow using two synthetic Alex emails. A provisional profile observes short colleague replies, first-name greetings and a Best closing. A new draft confirms Friday at 11 without inventing a time zone. This is an illustration, not a measured model result.</desc>
+  <rect width="1100" height="620" rx="16" fill="#f4f7f6"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="40" y="48" fill="#146b58" font-size="16" font-weight="700" letter-spacing="2">EMAIL VOICE</text>
+    <text x="40" y="100" fill="#152f28" font-size="34" font-weight="700">Your sent mail. Your voice. Your next reply.</text>
+    <g fill="#fff" stroke="#d5e0dc"><rect x="40" y="154" width="320" height="354" rx="12"/><rect x="390" y="154" width="320" height="354" rx="12"/><rect x="740" y="154" width="320" height="354" rx="12"/></g>
+    <g fill="#146b58" font-size="18" font-weight="700"><text x="60" y="139">01 / YOUR EXAMPLES</text><text x="410" y="139">02 / PRIVATE PROFILE</text><text x="760" y="139">03 / A NEW DRAFT</text></g>
+    <g fill="#263d35" font-size="18">
+      <text x="60" y="190">Hi Jordan,</text><text x="60" y="218">Could you send the updated</text><text x="60" y="246">forecast by Wednesday? I need</text><text x="60" y="274">it for the review.</text><text x="60" y="310">Best,</text><text x="60" y="338">Alex</text>
+      <path d="M60 358 H340" stroke="#e1e8e5"/>
+      <text x="60" y="389">Hi Morgan,</text><text x="60" y="417">Tuesday at 10 works for me.</text><text x="60" y="445">Please send the meeting link</text><text x="60" y="473">when it is ready. Best, Alex</text>
+      <text x="410" y="190" font-weight="700">Familiar colleagues</text><text x="410" y="236">Hi + first name</text><text x="410" y="274">Short, direct sentences</text><text x="410" y="312">Request + brief reason</text><text x="410" y="350">Best, Alex</text><text x="410" y="420" fill="#66766f" font-size="16">Provisional: only two examples.</text><text x="410" y="448" fill="#66766f" font-size="16">Other contexts: unverified.</text>
+      <text x="760" y="190">Hi Jordan,</text><text x="760" y="236">Friday at 11 works for me.</text><text x="760" y="264">Please send the meeting link</text><text x="760" y="292">when it is ready.</text><text x="760" y="346">Best,</text><text x="760" y="374">Alex</text><text x="760" y="448" fill="#66766f" font-size="16">Uses the supplied, confirmed time.</text><text x="760" y="476" fill="#66766f" font-size="16">No invented time zone.</text>
+    </g>
+    <text x="40" y="552" fill="#152f28" font-size="22" font-weight="600">Learn from your writing. Keep the profile. Reuse it.</text>
+    <text x="40" y="589" fill="#66766f" font-size="16">Synthetic illustration, not a benchmark or real correspondence. Review every draft before sending.</text>
+  </g>
+</svg>
