@@ -8,6 +8,8 @@ One file that learns your writing style from your sent emails and turns it into 
 
 **[Download the skill ZIP](https://github.com/DEX-XL/email-voice/releases/download/v0.1.0/email-voice.zip)** · [Read the single file](skills/email-voice/SKILL.md) · [Release notes](https://github.com/DEX-XL/email-voice/releases/tag/v0.1.0)
 
+![Synthetic example: two sent emails become a provisional colleague style profile and a new reply confirming Friday at 11. This illustrates the workflow, not a measured model result.](assets/email-voice-preview.svg)
+
 ## Start in three steps
 
 1. Download **[email-voice.zip](https://github.com/DEX-XL/email-voice/releases/download/v0.1.0/email-voice.zip)**. This is the skill package; GitHub's **Code > Download ZIP** downloads the whole source repository instead. A source-tree copy is also available in [dist](dist/email-voice.zip).
